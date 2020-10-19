@@ -6,6 +6,6 @@
 *.runtimeconfig.dev.json
 *.runtimeconfig.json
 *.txt
-*/*/bin/
+*/bin/
 */obj/
 .vs/
