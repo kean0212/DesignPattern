@@ -1,4 +1,4 @@
-﻿namespace FactoryMethod
+﻿namespace CreationalPatterns.FactoryMethod
 {
     public abstract class Dialog
     {

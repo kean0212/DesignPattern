@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FactoryMethod
+namespace CreationalPatterns.FactoryMethod
 {
     public class HtmlButton : IButton
     {
