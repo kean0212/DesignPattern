@@ -3,6 +3,7 @@ Abstract factory is a creational design pattern which creates **families** of re
 
 # Structure
 ![https://refactoring.guru/design-patterns/abstract-factory](./Structure.png)
+
 Copyright: [Refactoring Guru](https://refactoring.guru/design-patterns/abstract-factory)
 
 # Summary
