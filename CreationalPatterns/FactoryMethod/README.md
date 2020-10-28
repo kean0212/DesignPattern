@@ -2,7 +2,9 @@
 Factory method is a creational pattern which provides an interface of creating objects in superclass, but allows the subclasses to alter the type of the objects through overriding.
 
 # Sample structure
-![Sample](.\Structure.png)
+![Sample](./Structure.png)
+
+Copyright: [Refactoring Guru](https://refactoring.guru/design-patterns/factory-method)
 
 # Code structure
                    Dialog (IButton created, Render() implmeneted)
