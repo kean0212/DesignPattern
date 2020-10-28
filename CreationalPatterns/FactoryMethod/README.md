@@ -1,18 +1,10 @@
 # Intent
 Factory method is a creational pattern which provides an interface of creating objects in superclass, but allows the subclasses to alter the type of the objects through overriding.
 
-# Sample structure
+# Structure
 ![Sample](./Structure.png)
 
 Copyright: [Refactoring Guru](https://refactoring.guru/design-patterns/factory-method)
-
-# Code structure
-                   Dialog (IButton created, Render() implmeneted)
-                    /   \
-                   /     \
-                  /       \
-            HtmlDialog    WindowsDialog
-           (HtmlButton)  (WindowsButton)
 
 # Summary
 1. The products should have the same base class or implement the same interface.
