@@ -1,7 +1,10 @@
 # Intent
 Factory method is a creational pattern which provides an interface of creating objects in superclass, but allows the subclasses to alter the type of the objects through overriding.
 
-# Summary
+# Sample structure
+![Sample](.\Structure.png)
+
+# Code structure
                    Dialog (IButton created, Render() implmeneted)
                     /   \
                    /     \
@@ -9,6 +12,7 @@ Factory method is a creational pattern which provides an interface of creating o
             HtmlDialog    WindowsDialog
            (HtmlButton)  (WindowsButton)
 
+# Summary
 1. The products should have the same base class or implement the same interface.
 1. The factory method resides in the superclass.
 1. The return type of the facotry method should be the base or interface.
