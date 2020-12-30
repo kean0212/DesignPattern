@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AbstractFactory
+namespace CreationalPatterns.AbstractFactory
 {
     class Program
     {
@@ -21,7 +21,7 @@ namespace AbstractFactory
             {
                 throw new NotImplementedException();
             }
-            
+
             Console.WriteLine("Creating button...");
             var button = factory.CreateButton();
             Console.WriteLine("Creating checkbox...");

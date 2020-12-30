@@ -1,4 +1,4 @@
-﻿namespace AbstractFactory
+﻿namespace CreationalPatterns.AbstractFactory
 {
     class WinFactory : IGuiFactory
     {

@@ -1,3 +1,6 @@
-﻿public interface IButton
+﻿namespace CreationalPatterns.AbstractFactory
 {
+    public interface IButton
+    {
+    }
 }

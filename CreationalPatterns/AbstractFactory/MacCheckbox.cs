@@ -1,9 +1,12 @@
 ﻿using System;
 
-class MacCheckbox : ICheckbox
+namespace CreationalPatterns.AbstractFactory
 {
-    public MacCheckbox()
+    class MacCheckbox : ICheckbox
     {
-        Console.WriteLine("MacCheckbox is created.");
+        public MacCheckbox()
+        {
+            Console.WriteLine("MacCheckbox is created.");
+        }
     }
 }

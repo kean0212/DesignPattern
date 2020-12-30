@@ -1,10 +1,12 @@
-﻿
-using System;
+﻿using System;
 
-class MacButton : IButton
+namespace CreationalPatterns.AbstractFactory
 {
-    public MacButton()
+    class MacButton : IButton
     {
-        Console.WriteLine("MacButton is created.");
+        public MacButton()
+        {
+            Console.WriteLine("MacButton is created.");
+        }
     }
 }

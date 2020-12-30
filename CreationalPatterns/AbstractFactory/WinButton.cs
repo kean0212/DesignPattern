@@ -1,9 +1,12 @@
 ﻿using System;
 
-class WinButton : IButton
+namespace CreationalPatterns.AbstractFactory
 {
-    public WinButton()
+    class WinButton : IButton
     {
-        Console.WriteLine("WinButton is created.");
+        public WinButton()
+        {
+            Console.WriteLine("WinButton is created.");
+        }
     }
 }

@@ -1,12 +1,13 @@
-using System;
-
-public interface IGuiFactory
+namespace CreationalPatterns.AbstractFactory
 {
-    IButton CreateButton();
-    ICheckbox CreateCheckbox();
-    void Paint()
+    public interface IGuiFactory
     {
-        CreateButton();
-        CreateCheckbox();
+        IButton CreateButton();
+        ICheckbox CreateCheckbox();
+        void Paint()
+        {
+            CreateButton();
+            CreateCheckbox();
+        }
     }
 }

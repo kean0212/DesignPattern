@@ -1,3 +1,6 @@
-﻿public interface ICheckbox
+﻿namespace CreationalPatterns.AbstractFactory
 {
+    public interface ICheckbox
+    {
+    }
 }

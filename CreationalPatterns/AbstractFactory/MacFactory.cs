@@ -1,12 +1,15 @@
-﻿class MacFactory : IGuiFactory
+﻿namespace CreationalPatterns.AbstractFactory
 {
-    public IButton CreateButton()
+    class MacFactory : IGuiFactory
     {
-        return new MacButton();
-    }
+        public IButton CreateButton()
+        {
+            return new MacButton();
+        }
 
-    public ICheckbox CreateCheckbox()
-    {
-        return new MacCheckbox();
+        public ICheckbox CreateCheckbox()
+        {
+            return new MacCheckbox();
+        }
     }
 }
