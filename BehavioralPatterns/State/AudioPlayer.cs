@@ -15,7 +15,7 @@ namespace BehavioralPatterns.State
         {
             _state = new ReadyState();
             _ui = new UserInterface();
-            _ui.LockButton.OnClick = ClickLock;
+            _ui.LockButton.OnClick += ClickLock;
             _ui.PlayButton.OnClick += ClickPlay;
             _ui.NextButton.OnClick += ClickNext;
             _ui.PreviousButton.OnClick += ClickPrevious;
